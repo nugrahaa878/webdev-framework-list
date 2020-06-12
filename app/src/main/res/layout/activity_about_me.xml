@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/colorDark"
+    tools:context=".AboutMe">
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/img_profile"
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:layout_marginStart="106dp"
+        android:layout_marginTop="150dp"
+        android:layout_marginEnd="105dp"
+        android:textAlignment="center"
+        android:src="@drawable/profile"
+        tools:src="@android:color/darker_gray" />
+
+    <TextView
+        android:id="@+id/tv_nama"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="17dp"
+        android:textAlignment="center"
+        android:textStyle="bold"
+        android:textSize="20sp"
+        android:textColor="@color/colorHeader"
+        android:text="@string/nama" />
+
+    <TextView
+        android:id="@+id/tv_email"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:textAlignment="center"
+        android:textColor="@color/colorDetail"
+        android:text="@string/email" />
+
+    <TextView
+        android:id="@+id/tv_quotes"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="10dp"
+        android:textAlignment="center"
+        android:textStyle="italic"
+        android:textColor="@color/colorDetail"
+        android:text="@string/quotes" />
+
+    <Button
+        android:id="@+id/btn_to_linkedin"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:textAllCaps="false"
+        android:text="@string/my_linkedin" />
+
+</LinearLayout>

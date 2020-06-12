@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">MyFramework</string>
+    <string name="framework_name">Nama Framework</string>
+    <string name="framework_detail">Penjelasan framework</string>
+    <string name="about_me">About me</string>
+    <string name="its_me">Hei it\'s me</string>
+    <string name="nama">Ari Angga Nugraha</string>
+    <string name="email">ari.nugraha0702@gmail.com</string>
+    <string name="quotes">\"Ingin jalan - jalan menikmati senja lagi\"</string>
+    <string name="nama_framework">Nama framework</string>
+    <string name="detail_framework">Detail framework</string>
+    <string name="go_to_course_online">Go to Course Online</string>
+    <string name="my_linkedin">My Linkedin</string>
+</resources>
